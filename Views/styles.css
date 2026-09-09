@@ -1,0 +1,54 @@
+#page {
+width: 900;
+}
+
+
+#info {
+  font-family: arial, sans-serif;
+  font-size: 140%;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#info2 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font-size: 140%;
+  width: 100%;
+}
+
+
+.lh {
+ width: 100%;
+}
+
+.button-row {
+width: 33%;
+}
+
+input {
+  font-size: 130%;
+}
+
+button, .button {
+font-size: 130%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+
+th {
+  background-color: #c0c0f0;
+}
+
+#info tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#info2 td, th {
+    border: 0;
+    }
+
