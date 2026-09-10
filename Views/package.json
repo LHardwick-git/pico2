@@ -1,0 +1,10 @@
+{
+  "urls": [
+    ["bath-large.jpeg", "bath-large.jpeg"],
+    ["bath2.jpeg", "bath2.jpeg"],
+    ["script.js", "script.js"],
+    ["style.css", "style.css"],
+  ],
+  "deps": [],
+  "version": "0.2"
+}
