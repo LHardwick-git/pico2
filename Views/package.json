@@ -5,6 +5,5 @@
     ["/Views/script.js", "script.js"],
     ["/Views/style.css", "style.css"]
   ],
-  "deps": [],
-  "version": 1
+  "deps": []
 }
