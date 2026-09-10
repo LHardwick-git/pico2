@@ -3,7 +3,7 @@
     ["/Views/bath-large.jpeg", "bath-large.jpeg"],
     ["/Views/bath2.jpeg", "bath2.jpeg"],
     ["/Views/script.js", "script.js"],
-    ["/Views/style.css", "styles.css"]
+    ["/Views/styles.css", "styles.css"]
   ],
   "deps": [],
   "Version", "0.2"
