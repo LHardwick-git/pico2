@@ -1,0 +1,8 @@
+{
+  "urls": [
+    ["index.tpl", "index.tpl"],
+    ["devconfig.tpl","devconfig.tpl"]
+  ],
+  "deps": [],
+  "Version", "0.2"
+}
