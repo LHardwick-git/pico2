@@ -1,9 +1,9 @@
 {
   "urls": [
-    ["/Views/bath-large.jpeg", "bath-large.jpeg"],
-    ["/Views/bath2.jpeg", "bath2.jpeg"],
-    ["/Views/script.js", "script.js"],
-    ["/Views/styles.css", "styles.css"]
+    ["bath-large.jpeg", "bath-large.jpeg"],
+    ["bath2.jpeg", "bath2.jpeg"],
+    ["script.js", "script.js"],
+    ["styles.css", "styles.css"]
   ],
   "deps": [],
   "Version", "0.2"
