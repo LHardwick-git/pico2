@@ -68,14 +68,7 @@ Response.default_content_type = 'text/html'
 async def favicon(r):
     return '', 204
 
-@app.route('/index.tpl', methods=['GET', 'POST'])
-async def index(req):
-    host = None
-    if req.method == 'POST':
-        name = req.form.get('name')
-    return Template('index.tpl').render(host=host.host)
-
-
+@app.route('/index.tpl')
 @app.route('/')
 async def index(req):
     return Template('index.tpl').render(host=host.host)
