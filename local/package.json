@@ -1,0 +1,9 @@
+{
+  "urls": [
+    ["host.py", "host.py"],
+    ["WiFi_nets.py", "WiFi_nets.py"],
+    ["gpip_config.py", "gpio_config.py"],
+  ],
+  "deps": [],
+  "Version", "0.2"
+}
