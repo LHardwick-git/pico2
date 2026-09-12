@@ -3,13 +3,15 @@ from microdot import send_file
 from utemplate.utemplate import Template
 import gc
 import os
-import bg_thread
 import asyncio
+import sys
 
 import WAN_connect
-from local import host
 from uio import StringIO
-import sys
+
+sys.path.append('local')
+import host
+import bg_thread
 
 # =====================================
 # module level debugs
