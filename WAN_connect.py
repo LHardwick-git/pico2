@@ -38,7 +38,7 @@ def connect(host, debug = False):
         return True
       
     station.active(True)
-    station.config(pm = 0xa1114)
+    station.config(pm = 0xa11140) # configure powersave off to ensure responsive server
 
     available_nets = station.scan()
     if debug:
