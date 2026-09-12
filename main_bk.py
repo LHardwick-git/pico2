@@ -9,7 +9,7 @@ import sys
 import WAN_connect
 from uio import StringIO
 
-sys.path.append('local')
+sys.path.append('local') if 'local' not in sys.path else sys.path
 import host
 import bg_thread
 
