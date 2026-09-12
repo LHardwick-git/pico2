@@ -219,7 +219,7 @@ def write_names(r):
             log("devices changed writing out changes")
 
             try:
-                with open('dev_list.py', 'w') as f:
+                with open('local/dev_list.py', 'w') as f:
                     f.write("dev_names = {") 
                     for device in dev_list: # this is itterating over the known devices                      
                         s = ("'"+ device+"'" + " : " + "'" + dev_list[device][' Name'] + "',\r\n")  
