@@ -24,8 +24,11 @@ def log(*args):
 
 # Local config and tool imports
 #import dev_list 				# a file created to map device names
-from dev_list import dev_names
-# dev_names = dev_list.__dict__ 	# As a dictionary in this name space
+try:
+    from dev_list import dev_names
+except ImportError:
+    dev_names = {}
+
 import bidict		# bi directional dictionary
 
 dev_type = bidict.bidict() # maps devices to types
