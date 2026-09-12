@@ -62,6 +62,6 @@
 <span id='ip-box' class="response" >IP-addr</span>
 
 </div>
-<div><img src='bath-large.jpeg' width="800" /></div>
+<div><img src='bath2.jpeg' width="800" /></div>
 
 </html>	
