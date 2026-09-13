@@ -82,6 +82,8 @@ async def devconfig(req):
 # ====================================================
 #        Interface routines
 
+Response.types_map['jpeg'] = 'image/jpeg'
+
 @app.route('div-zero')
 async def cause_error(*_):
     log("causing server error")
