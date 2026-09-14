@@ -3,7 +3,7 @@
     ["bg_thread.py", "bg_thread.py"],
   ],
   "deps": [
-    ["https://raw.githubusercontent.com/targetblank/micropython_ahtx0/refs/heads/master/ahtx0.py", "ahtxo.py"]
+    ["https://raw.githubusercontent.com/targetblank/micropython_ahtx0/refs/heads/master/ahtx0.py", "lib/ahtxo.py"]
   ],
   "Version", "0.2"
 }
