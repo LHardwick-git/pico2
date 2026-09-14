@@ -2,6 +2,8 @@
   "urls": [
     ["bg_thread.py", "bg_thread.py"],
   ],
-  "deps": [],
+  "deps": [
+    ["lib/ahtx0.py", "raw.githubusercontent.com/targetblank/micropython_ahtx0/refs/heads/master/ahtx0.py"]
+  ],
   "Version", "0.2"
 }
